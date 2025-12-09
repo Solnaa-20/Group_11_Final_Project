@@ -3,6 +3,7 @@
 1.Open Windows PowerShell
    
 2.Navigate to the project folder
+
 Type this but replace with your file path of the project -> 
 cd "C:\Users\adsol\OneDrive\Desktop\Climate Change Quiz App\Climate Change QuizApp"
 
@@ -10,11 +11,8 @@ cd "C:\Users\adsol\OneDrive\Desktop\Climate Change Quiz App\Climate Change QuizA
 3.Navigate to the .src folder where all .java files are stored:
 Type this -> cd src
 
-
 4️.Compile all Java source files, including the SQLite JDBC driver located in the libs folder:
-Type this -> 
-
-javac -cp ".;../libs/*" *.java
+Type this -> javac -cp ".;../libs/*" *.java
 
 
 // How to run the program //
@@ -22,9 +20,8 @@ javac -cp ".;../libs/*" *.java
 1.After compiling, stay in the src folder
    
 2.Run the application using:
-Type this -> 
 
-java -cp ".;../libs/*" QuizApp
+Type this -> java -cp ".;../libs/*" QuizApp
 
 
 
